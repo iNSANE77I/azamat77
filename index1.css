@@ -9,14 +9,15 @@
 
 .zakaz {
     background-color: red;
-    padding: 12px;
-    width: 106px;
+    padding: 10px;
+    width: 150px;
     color: white;
-    border-radius: 50px;     
+    border-radius: 50px;  
+    text-decoration: none;   
 }
 
-.cat{
-    width: 95%;    
+.zakaz:active{
+    color: black;
 }
 
 .obshee {
@@ -29,5 +30,5 @@
 
 footer{
     background: linear-gradient(360deg, orange 47.4%, white 100%);
-    height: 100vh;
+    height: 50vh;
 }
