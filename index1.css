@@ -4,22 +4,31 @@
 }
 
 .card-title {
-    text-align: center;     }
-    .zakaz {
-        background-color: red;
-        padding: 12px;
-        width: 106px;
-        
-        color: white;
-        border-radius: 50px;
-       
-    }
-    .cat {
-        width: 95%;    }
-        .obshee {
-            padding-top: 200px;
-        }
-        .menu {
-            text-align: center;
-            
-        }
+    text-align: center;     
+}
+
+.zakaz {
+    background-color: red;
+    padding: 10px;
+    width: 150px;
+    color: white;
+    border-radius: 50px;  
+    text-decoration: none;   
+}
+
+.zakaz:active{
+    color: black;
+}
+
+.obshee {
+    padding-top: 200px;
+}
+
+.menu {
+    text-align: center;            
+}
+
+footer{
+    background: linear-gradient(360deg, orange 47.4%, white 100%);
+    height: 50vh;
+}
